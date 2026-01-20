@@ -1,7 +1,8 @@
 :root {
     --white: #FFFFFF;
+    --submit-button-text-color: #FFFFFF;
     --card-color: #FFFFFF;
-    --form-border: #949494;
+    --form-border-and-text: #949494;
     --form-border-selected: #242742;
     --main-color: #242742;
     --background-color: #36384D;
@@ -12,30 +13,91 @@
 }
 
 
-.text-preset-1-mobile{
+.text-preset-1-mobile {
     font-size: 4rem;
     font-weight: 700;
     line-height: 100%;
     letter-spacing: 0;
 }
 
-.text-preset-2-bold{
+.text-preset-2-bold {
     font-size: 1.6rem;
     font-weight: 700;
     line-height: 150%;
     letter-spacing: 0;
 }
 
-.text-preset-2-regular{
+.text-preset-2-regular {
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 150%;
     letter-spacing: 0;
 }
 
-.text-preset-3{
+.text-preset-3 {
     font-size: 1.2rem;
     font-weight: 700;
     line-height: 150%;
     letter-spacing: 0;
+}
+
+body {
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 2.4rem;
+    gap: 2.4rem;
+}
+
+.main-section__title {
+    color: var(--main-color);
+}
+
+.main-section__text {
+    color: var(--main-color);
+}
+
+.main-section__list {
+    color: var(--main-color);
+}
+
+
+
+.form-section {
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__email-label {
+    color: var(--main-color);
+    margin-bottom: 0.8rem;
+}
+
+.form__email-input {
+    color: var(--form-border-and-text);
+    border: solid 0.1rem var(--form-border-and-text);
+    border-radius: 0.8rem;
+    height: 5.6rem;
+    margin-bottom: 2.4rem;
+    padding-left: 2.4rem;
+}
+
+.form__submit-button {
+    color: var(--submit-button-text-color);
+    background-color: var(--main-color);
+    border-radius: 0.8rem;
+    border: none;
+    text-align: center;
+    height: 5.6rem;
 }
