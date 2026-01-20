@@ -1,0 +1,41 @@
+:root {
+    --white: #FFFFFF;
+    --card-color: #FFFFFF;
+    --form-border: #949494;
+    --form-border-selected: #242742;
+    --main-color: #242742;
+    --background-color: #36384D;
+    --error-text-color: #FF6155;
+    --error-form-border-selected-background: #FFE7E6;
+    --gradient-color-1: #FF6A3A;
+    --gradient-color-2: #FF527B;
+}
+
+
+.text-preset-1-mobile{
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0;
+}
+
+.text-preset-2-bold{
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0;
+}
+
+.text-preset-2-regular{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0;
+}
+
+.text-preset-3{
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0;
+}
