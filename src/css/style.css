@@ -49,7 +49,7 @@ body {
     background-color: var(--card-color);
 }
 
-.card{
+.card {
     display: flex;
     flex-direction: column;
     background-color: var(--card-color);
@@ -57,7 +57,7 @@ body {
     border-radius: 3.6rem;
 }
 
-.main-image{
+.main-image {
     max-width: 100%;
 }
 
@@ -86,7 +86,7 @@ body {
 }
 
 
-.main-section__list p{
+.main-section__list p {
     margin-left: 1rem;
 }
 
@@ -124,4 +124,9 @@ body {
     text-align: center;
     height: 5.6rem;
     margin-bottom: 4.4rem;
+}
+
+.form__submit-button:hover {
+    cursor: pointer;
+    background-image: linear-gradient(to right, var(--gradient-color-1), var(--gradient-color-2));
 }
