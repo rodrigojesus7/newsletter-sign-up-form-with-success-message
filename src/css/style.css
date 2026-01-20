@@ -139,6 +139,42 @@ body {
 
 
 
+/* Submited successfully card */
+
+.submited-successfully-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 62.3rem;
+    width: 32.7rem;
+    margin-top: 13rem;
+}
+
+.submited-successfully-card img{
+    height: 6.4rem;
+    width: 6.4rem;
+}
+
+.submited-successfully-card__img-texts{
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+    color: var(--main-color);
+}
+
+.submited-successfully-card__button{
+
+    color: var(--submit-button-text-color);
+    background-color: var(--main-color);
+    border-radius: 0.8rem;
+    border: none;
+    text-align: center;
+    height: 5.6rem;
+}
+
+
+
+
 
 /* JS Modifiers */
 
@@ -159,13 +195,13 @@ body {
 }
 
 
-.form__error-text{
+.form__error-text {
     position: absolute;
     max-width: max-content;
     color: var(--error-text-color);
     transform: translateX(21.9rem);
 }
 
-.hidden{
+.hidden {
     display: none;
 }
