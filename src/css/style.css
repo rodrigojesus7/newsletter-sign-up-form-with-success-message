@@ -109,7 +109,7 @@ body {
 
 .form__email-input {
     color: var(--form-border-and-text);
-    border: solid 0.1rem var(--form-border-and-text);
+    border: solid 0.15rem var(--form-border-and-text);
     border-radius: 0.8rem;
     height: 5.6rem;
     margin-bottom: 2.4rem;
@@ -118,7 +118,7 @@ body {
 
 .form__email-input:focus{
     color: var(--main-color);
-    border: solid 0.1rem var(--main-color);
+    border: solid 0.15rem var(--main-color);
 }
 
 .form__submit-button {
@@ -134,4 +134,20 @@ body {
 .form__submit-button:hover {
     cursor: pointer;
     background-image: linear-gradient(to right, var(--gradient-color-1), var(--gradient-color-2));
+}
+
+
+
+
+
+.form__email-input--error-modifier{
+    border: solid 0.15rem var(--error-text-color);
+    background-color: var(--error-form-border-selected-background);
+    color: var(--error-text-color);
+}
+
+.form__email-input--error-modifier:focus{
+    border: solid 0.15rem var(--error-text-color);
+    background-color: var(--error-form-border-selected-background);
+    color: var(--error-text-color);
 }
