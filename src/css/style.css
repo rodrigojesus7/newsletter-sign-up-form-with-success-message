@@ -116,7 +116,7 @@ body {
     padding-left: 2.4rem;
 }
 
-.form__email-input:focus{
+.form__email-input:focus {
     color: var(--main-color);
     border: solid 0.15rem var(--main-color);
 }
@@ -140,14 +140,32 @@ body {
 
 
 
-.form__email-input--error-modifier{
+/* JS Modifiers */
+
+.form__email-input--error-modifier {
     border: solid 0.15rem var(--error-text-color);
     background-color: var(--error-form-border-selected-background);
     color: var(--error-text-color);
 }
 
-.form__email-input--error-modifier:focus{
+.form__email-input--error-modifier:focus {
     border: solid 0.15rem var(--error-text-color);
     background-color: var(--error-form-border-selected-background);
     color: var(--error-text-color);
+}
+
+.form__email-input--error-modifier::placeholder {
+    color: var(--error-text-color);
+}
+
+
+.form__error-text{
+    position: absolute;
+    max-width: max-content;
+    color: var(--error-text-color);
+    transform: translateX(21.9rem);
+}
+
+.hidden{
+    display: none;
 }

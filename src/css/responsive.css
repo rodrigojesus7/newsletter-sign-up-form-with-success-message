@@ -33,13 +33,17 @@
         margin-bottom: 0;
     }
 
+    .form__error-text{
+        transform: translateX(42rem);
+    }
+
 }
 
 
 
 @media (min-width: 64rem) {
 
-    body{
+    body {
         align-items: center;
         justify-content: center;
     }
@@ -54,8 +58,11 @@
     }
 
     section {
-        gap:  3.2rem;
+        gap: 3.2rem;
         max-width: 37.6rem;
     }
 
+    .form__error-text {
+        transform: translateX(26.8rem);
+    }
 }
