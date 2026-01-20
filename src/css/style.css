@@ -116,6 +116,11 @@ body {
     padding-left: 2.4rem;
 }
 
+.form__email-input:focus{
+    color: var(--main-color);
+    border: solid 0.1rem var(--main-color);
+}
+
 .form__submit-button {
     color: var(--submit-button-text-color);
     background-color: var(--main-color);
