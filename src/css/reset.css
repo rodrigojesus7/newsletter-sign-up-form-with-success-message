@@ -8,3 +8,7 @@ html{
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
 }
+
+ul{
+    list-style-image: url("../images/icon-list.svg");
+}
