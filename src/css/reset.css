@@ -10,5 +10,5 @@ html{
 }
 
 ul{
-    list-style-image: url("../images/icon-list.svg");
+    list-style-type: none;
 }
