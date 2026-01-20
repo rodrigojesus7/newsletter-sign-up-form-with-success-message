@@ -2,6 +2,7 @@
 
     body {
         background-color: var(--background-color);
+        justify-content: center;
     }
 
     .card {
@@ -33,8 +34,19 @@
         margin-bottom: 0;
     }
 
-    .form__error-text{
+    .form__error-text {
         transform: translateX(42rem);
+    }
+
+
+
+    .submited-successfully-card {
+        background-color: var(--card-color);
+        width: 50.4rem;
+        height: 52rem;
+        padding: 6rem 6.4rem;
+        border-radius: 3.6rem;
+        margin-top: 0;
     }
 
 }

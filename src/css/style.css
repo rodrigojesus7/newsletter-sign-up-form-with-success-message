@@ -162,7 +162,7 @@ body {
     color: var(--main-color);
 }
 
-.submited-successfully-card__button{
+.submited-successfully-card__dismiss-button{
 
     color: var(--submit-button-text-color);
     background-color: var(--main-color);
