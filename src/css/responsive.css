@@ -34,3 +34,28 @@
     }
 
 }
+
+
+
+@media (min-width: 64rem) {
+
+    body{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card {
+        flex-direction: row-reverse;
+        align-items: center;
+        max-width: 90.4rem;
+        padding: 3.2rem;
+        margin: 0;
+        gap: 6.4rem;
+    }
+
+    section {
+        gap:  3.2rem;
+        max-width: 37.6rem;
+    }
+
+}
