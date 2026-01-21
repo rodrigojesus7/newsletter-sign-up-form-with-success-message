@@ -144,11 +144,11 @@ body {
 .submited-successfully-card {
     display: flex;
     flex-direction: column;
-    min-height: 62.3rem;
-    margin-top: 13rem;
+    padding-top: 14.9rem;
     padding-left: 2.4rem;
     padding-right: 2.4rem;
-    padding-bottom: 7.4rem;
+    padding-bottom: 7rem;
+    justify-content: space-between;
 }
 
 .submited-successfully-card img{
@@ -161,7 +161,6 @@ body {
     flex-direction: column;
     gap: 3.2rem;
     color: var(--main-color);
-    margin-bottom: 26.3rem;
 }
 
 .submited-successfully-card__dismiss-button{
@@ -171,6 +170,7 @@ body {
     border: none;
     text-align: center;
     height: 5.6rem;
+    margin-top: 26.3rem;
 }
 
 .submited-successfully-card__dismiss-button:hover{

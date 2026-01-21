@@ -52,7 +52,7 @@
                 <form action="" class="form" id="form">
                     <div class="form__label-and-error-container">
                         <label for="email" class="text-preset-3 form__email-label">Email address</label>
-                        <p class="text-preset-3 form__error-text hidden" id="error-text">Valid email required</p>
+                        <p class="text-preset-3 form__error-text hidden" id="error-text" role="alert" aria-live="polite">Valid email required</p>
                     </div>
 
                     <input class="text-preset-2-regular form__email-input" type="email" name="email" id="email"
@@ -75,7 +75,7 @@
                     id="email-confirmation"></strong>. Please open it
                 and click the button inside to confirm your subscription</p>
         </div>
-        <button class="text-preset-2-bold submited-successfully-card__dismiss-button" id="dismiss-button">Dismiss
+        <button type="button" class="text-preset-2-bold submited-successfully-card__dismiss-button" id="dismiss-button">Dismiss
             message</button>
 
     </div>
