@@ -35,4 +35,5 @@ form.addEventListener('submit', function (submit) {
 dismissButton.addEventListener('click', function () {
     submitedSuccessfullySection.classList.toggle('hidden');
     mainSection.classList.toggle('hidden');
+    form.reset();
 })
