@@ -10,7 +10,7 @@ form.addEventListener('submit', function (submit) {
 
     submit.preventDefault();
 
-    if (emailInput.value === "") {
+    if (emailInput.value.trim() === "") {
 
         emailInput.classList.add('form__email-input--error-modifier');
         errorText.classList.remove('hidden');
