@@ -25,7 +25,7 @@ form.addEventListener('submit', function (submit) {
         submitedSuccessfullySection.classList.toggle('hidden');
         emailInput.classList.remove('form__email-input--error-modifier');
         errorText.classList.add('hidden');
-        emailConfirmation.innerHTML = emailInput.value;
+        emailConfirmation.textContent = emailInput.value;
     }
 
 })
