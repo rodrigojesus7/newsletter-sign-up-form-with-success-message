@@ -5,6 +5,7 @@ let form = document.querySelector('#form');
 let dismissButton = document.querySelector('#dismiss-button');
 let mainSection = document.querySelector('#main-section');
 let submitedSuccessfullySection = document.querySelector('#submited-successfully-card')
+let emailConfirmation = document.querySelector('#email-confirmation')
 
 form.addEventListener('submit', function (submit) {
 
@@ -20,6 +21,7 @@ form.addEventListener('submit', function (submit) {
         submitedSuccessfullySection.classList.toggle('hidden');
         emailInput.classList.remove('form__email-input--error-modifier');
         errorText.classList.add('hidden');
+        emailConfirmation.innerHTML = emailInput.value;
     }
 
 })
