@@ -149,6 +149,7 @@ body {
     height: 62.3rem;
     width: 32.7rem;
     margin-top: 13rem;
+    box-shadow: 0 1.5rem 6rem #00000040;
 }
 
 .submited-successfully-card img{
