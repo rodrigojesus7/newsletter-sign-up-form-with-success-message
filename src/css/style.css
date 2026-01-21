@@ -7,6 +7,7 @@
     --main-color: #242742;
     --background-color: #36384D;
     --error-text-color: #FF6155;
+    --dismiss-button--hover-color: #FF615580;
     --error-form-border-selected-background: #FFE7E6;
     --gradient-color-1: #FF6A3A;
     --gradient-color-2: #FF527B;
@@ -163,7 +164,6 @@ body {
 }
 
 .submited-successfully-card__dismiss-button{
-
     color: var(--submit-button-text-color);
     background-color: var(--main-color);
     border-radius: 0.8rem;
@@ -172,6 +172,11 @@ body {
     height: 5.6rem;
 }
 
+.submited-successfully-card__dismiss-button:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to right, var(--gradient-color-1), var(--gradient-color-2));
+    box-shadow: 0 1.6rem 3.8rem var(--dismiss-button--hover-color);
+}
 
 
 
