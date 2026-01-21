@@ -6,16 +6,20 @@ let dismissButton = document.querySelector('#dismiss-button');
 let mainSection = document.querySelector('#main-section');
 let submitedSuccessfullySection = document.querySelector('#submited-successfully-card')
 let emailConfirmation = document.querySelector('#email-confirmation')
+const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
 
 form.addEventListener('submit', function (submit) {
 
     submit.preventDefault();
 
-    if (emailInput.value.trim() === "") {
+    if (emailInput.value.trim() === "" || emailRegex.test(emailInput.value) === false) {
 
         emailInput.classList.add('form__email-input--error-modifier');
         errorText.classList.remove('hidden');
-    } else {
+    }
+    
+    else {
         submit.preventDefault();
         mainSection.classList.toggle('hidden');
         submitedSuccessfullySection.classList.toggle('hidden');
