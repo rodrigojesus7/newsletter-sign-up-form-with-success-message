@@ -54,12 +54,11 @@ body {
     display: flex;
     flex-direction: column;
     background-color: var(--card-color);
-    max-width: 37.5rem;
     border-radius: 3.6rem;
 }
 
 .main-image {
-    max-width: 100%;
+    width: 100%;
 }
 
 .main-section {
@@ -145,10 +144,11 @@ body {
 .submited-successfully-card {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 62.3rem;
-    width: 32.7rem;
+    min-height: 62.3rem;
     margin-top: 13rem;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+    padding-bottom: 7.4rem;
 }
 
 .submited-successfully-card img{
@@ -161,6 +161,7 @@ body {
     flex-direction: column;
     gap: 3.2rem;
     color: var(--main-color);
+    margin-bottom: 26.3rem;
 }
 
 .submited-successfully-card__dismiss-button{
